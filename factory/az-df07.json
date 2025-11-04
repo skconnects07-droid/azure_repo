@@ -1,0 +1,9 @@
+{
+	"name": "az-df07",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b37f880c-39a2-49cc-8d0a-9ae0550a123b",
+		"tenantId": "3a72aa81-fb6d-453d-8315-95db6aa791a1"
+	}
+}

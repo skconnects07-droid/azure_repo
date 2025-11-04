@@ -1,0 +1,17 @@
+{
+	"name": "ds_oracle_dwh",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Oracle_DWH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "DWH",
+			"table": "EMPLOYEES"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
