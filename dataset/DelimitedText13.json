@@ -1,0 +1,36 @@
+{
+	"name": "DelimitedText13",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "SRC_OT_COUNTRIES.CSV",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "COUNTRY_ID",
+				"type": "String"
+			},
+			{
+				"name": "COUNTRY_NAME",
+				"type": "String"
+			},
+			{
+				"name": "REGION_ID",
+				"type": "String"
+			}
+		]
+	}
+}
